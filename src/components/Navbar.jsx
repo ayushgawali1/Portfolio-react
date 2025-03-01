@@ -32,7 +32,8 @@ function Navbar({isDark,setIsDark}) {
         </div>
         <nav className={`w-full fixed px-5 lg:px-8 xl:px-[8%] py-4 flex justify-between items-center z-50 ${isScroll ? "bg-white bg-opacity-50 backdrop-blur-lg shadow-sm dark:bg-darkTheme dark:shadow-white/80" : '' }`}>
             <a href="#top">
-                <img src={ isDark ? assets.logo_dark : assets.logo} className='w-28 cursor-pointer mr-14' alt='' />
+                <h1 className=' cursor-pointer mr-14 text-4xl font-semibold'>Ayush.G</h1>
+                {/* <img src={ isDark ? assets.logo_dark : assets.logo} className='w-28 cursor-pointer mr-14' alt='' /> */}
             </a>
             <ul className={`hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3       ${isScroll ? "" : "bg-white shadow-sm bg-opacity-50 dark:border dark:border-white/80 dark:bg-transparent"} `}>
                 <li><a className='font-Ovo' href="#top">Home</a></li>

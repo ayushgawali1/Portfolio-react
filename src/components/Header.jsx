@@ -10,7 +10,7 @@ function Header({isDark}) {
             whileInView={{ scale:1, opacity: 1 }}
             transition={{duration:0.8,type:'spring'}}
         >
-            <img src={"https://media.licdn.com/dms/image/v2/D4D35AQFzxP831-a2xw/profile-framedphoto-shrink_400_400/B4DZVH9NZYHwAg-/0/1740668983273?e=1741431600&v=beta&t=UaAAiUDmOskrL7eRxu6GzFSofU7HsujsrusIch-OJjs"} alt='' className='w-32 rounded-full' priority  />
+            <img src={"https://icons.veryicon.com/png/o/miscellaneous/user-avatar/user-avatar-male-5.png"} alt='' className='w-32 rounded-full' priority  />
         </motion.div>
         <motion.h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'
             initial={{ y:-20, opacity: 0 }}

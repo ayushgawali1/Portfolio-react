@@ -25,7 +25,7 @@ function Services() {
           whileInView={{opacity:1}}
           transition={{duration:0.5,delay:0.7}}
         >
-          I am a FullStack Web Developer pursuing degree in Pccoer for computer engineering . 
+          I am a FullStack Web Developer pursuing degree in PCCOER for computer engineering . 
         </motion.p>
         <motion.div className='grid grid-cols-auto gap-6 my-10'
           initial={{opacity:0}}

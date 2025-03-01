@@ -33,7 +33,7 @@ function Work({isDark}) {
             >
                 {workData.map((project, index) => (
                     
-                    <motion.div key={index}  style={{ background: `url(${project.bgimg})` , backgroundSize: 'cover' , backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }} className='aspect-square rounded-lg relative cursor-pointer group'
+                    <motion.div key={index}  style={{ background: `url(${project.bgImage})` , backgroundSize: 'contain' , backgroundPosition: 'center', backgroundRepeat: 'no-repeat', }} className='aspect-square rounded-lg relative cursor-pointer group'
                         initial={{opacity:0 , scale:0}}
                         whileInView={{opacity:1 , scale:1}}
                         transition={{duration:0.4,delay:0.8}}
